@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Open Sans";
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/capa.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+header nav.desktop-menu {
+    float: right;
+}
+
+header nav.desktop-menu li {
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+
+}
+
+header nav.desktop-menu li a {
+    text-decoration: none;
+    color: white;
+}
+nav.mobile-menu{
+    float: right;
+    display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/menu-hamburguer.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+nav.mobile-menu:hover ul{
+   display: block;
+}
+
+nav.mobile-menu ul li:hover{
+    background-color:orangered;
+}
+nav.mobile-menu ul {
+    transition: 1s;
+    position: absolute;
+    left: 0;
+    top: 95px;
+    width: 100%;
+    list-style-type: none;
+    background-color: white;
+    text-align: center;
+    display: none;
+    
+}
+
+nav.mobile-menu ul li{
+    padding: 4px 0;
+    border: 1px solid black;
+}
+
+
+nav.mobile-menu ul li a{
+    text-decoration: none;
+}
+
+.logo {
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    float: left;
+}
+
+.chamada1 {
+    float: right;
+    margin: 130px 250px;
+    max-width: 600px;
+}
+
+.chamada1 h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.chamada1 p {
+    color: white;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.seçao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0 2%;
+    height: 400px;
+}
+
+section .texto-seçao1{
+    width: 50%;
+    color: white;
+    float: left;
+    list-style: inside;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+
+.texto-seçao1 h2{
+    font-size: 30px;
+    
+}
+
+.texto-seçao1 p{
+    font-size:30px;
+    
+}
+
+.texto-seçao1 ul li{
+    font-size: 20px;
+    
+}
+
+.device-seçao1{
+    float: left;
+    width: 50%;
+    position: relative;
+    top:-30px;
+    height: 430px;
+    background-image: url(/images/device.png);
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    background-position: center; 
+}
+.container-device{
+    margin-left: 100px;
+}
+.btn1{
+    clear: left;
+    background-color: orangered;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+.seçao2{
+    padding-top: 80px 2%;
+    text-align: center;
+}
+
+.seçao2 h2{
+ padding-bottom: 15px;   
+}
+
+.seçao2 p{
+    max-width: 700px;
+    display: inline-block;
+    font-weight: 300;
+}
+.seçao2 img{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.seçao3{
+  width: 100%;
+}
+.part1{
+ width:50%;
+ float: left;
+ padding: 140px 0 90px 0;
+ background-color: #7847a0;
+ color: white;
+}
+.part1 h2{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 23px;
+}
+.part1 p {
+  font-size: 15px;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.wraper-part1{
+  max-width: 600px;
+  float: right;
+  padding: 0 30px;
+}
+
+.part2{
+ width:50%;
+ float: left;
+ padding: 140px 0 90px 0;
+}
+.sobre-autor{
+ float: left;
+ max-width: 600px;
+ padding-left: 30px;
+}
+.titulo-autor{
+    float: left;
+    width: 100%;
+}
+.titulo-autor h2{
+    float: left;
+    padding-right: 20px;
+}
+.titulo-autor .img-autor{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:gray;
+    background-image: url(/images/profile.jpeg);
+    background-size: contain;
+    position: relative;
+    top: -5px;
+}
+.wraper-titulo-autor{
+    float: left;
+}
+.texto-autor{
+ width: 100%;
+ padding-top: 15px;
+ float: left;
+}
+.slider-bullets{
+    width: 100%;
+    float: left;
+    margin-top: 16px;
+    padding-left: 30px;
+}
+.slider-bullets span{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right:8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+section.seçao4{
+    clear: both;
+    background-color: #472563;
+    padding: 150px 0;
+}
+.form{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    
+}
+.form h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+}
+.form p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    max-width: 480px;
+    padding-right: 10px;
+}
+.form form textarea{
+    width: 90%;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid black;
+    height: 160px;
+    margin-top: 8px;
+
+}
+
+.form form input[type=text]{
+    width: 90%;
+    max-width: 480px;
+    margin-top: 8px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid black;
+}
+.form form input[type=submit]{
+ background-color: orangered;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.map-wraper{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 0 10px;
+}
+.map-wraper h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+.map{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   border: 5px solid #ccc;
+}
+.map-wraper2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top:100%;
+    width: 100%;
+
+}
+.map-wraper3{
+    margin-top: 10px;
+    width: 100%;
+    max-width:480px;
+    position: relative;
+}
+
+footer{
+ padding: 40px 2%;
+ background-color: #192123;
+ color: white;
+}
+footer p:nth-of-type(1){
+    float: left;
+    font-size: 14px;
+}
+footer p:nth-of-type(2){
+    float: right;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 820px) {
+    header {
+        width: 100%;
+        height: auto;
+        min-height: 90vh;
+        padding: 40px 2%;
+    }
+    nav.desktop-menu{
+        display: none;
+    }
+    
+    nav.mobile-menu{
+        display: block;
+    }
+
+    .chamada1 {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 100px 0;
+    }
+    
+    .chamada1 h2 {
+        font-size: 40px;
+    }
+    
+    .section.seçao1{
+        padding: 40px 0 ;
+        height: auto;
+        text-align: center;
+        
+    }
+    section .texto-seçao1{
+        text-align: center;
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+        position: static;
+        padding-left:0;
+        
+    }
+    .texto-seçao1 ul{
+        display: inline-block;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .texto-seçao1 ul li{
+        float: none;
+    }
+    
+     .device-seçao1{
+        display: none;
+    }
+    .texto-seçao1 h2{
+        text-align: left;
+        
+       
+    }
+    .seçao2 img{
+        padding: 0 2%;
+    }
+    section.seçao4 .container{
+      text-align: center;  
+
+    }
+    .map-wraper{
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 4%;
+    }
+    .form p{
+        float: none;
+        display: inline-block;
+    }
+    .form{
+        float: none;
+        width: 100%;
+    }
+    .map-wraper2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top:0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .map-wraper3{
+        margin-top: 10px;
+        width: 80%;
+        padding-top: 80%;
+        max-width:none;
+        position: relative;
+        display: inline-block;
+    
+    }
+    section.seçao4{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .part1{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .part2{
+        width: 100%;
+        padding: 50px 0;
+    }
+    
+    footer{
+        text-align: center;
+        padding: 10px 0;
+    }
+    footer p:nth-of-type(1){
+           float: none;
+    }
+    footer p:nth-of-type(2){
+           float: none;
+    }
+}
